@@ -2,7 +2,7 @@
 
 import numpy as np
 import pytest
-from utils import dot_product, cosine_similarity, nearest_neighbor
+from utils import *
 
 def test_dot_product():
     vector1 = np.array([1, 2, 3])
